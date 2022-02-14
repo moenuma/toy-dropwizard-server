@@ -44,7 +44,7 @@ jobs:
 
         - name: Run system tests
           working-directory: .
-          run: pytest
+          run: python3 -m pytest
 
         - name: Bring server down
           working-directory: .

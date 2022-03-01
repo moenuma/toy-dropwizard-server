@@ -56,10 +56,10 @@ jobs:
       needs: build
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@master
+        - uses: actions/checkout@main
 
         - name: Copy repo to cloud
-          uses: applyboy/scp-action@master
+          uses: applyboy/scp-action@main
           env:
             HOST: ${{ secrets.HOST }}
             USERNAME: ${{ secrets.USERNAME }}

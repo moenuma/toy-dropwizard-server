@@ -67,5 +67,4 @@ jobs:
             KEY: ${{ secrets.KEY }}
           with:
             source: "./"
-            target: "~/prod"
-
+            target: "~/prod" 

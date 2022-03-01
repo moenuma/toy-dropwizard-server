@@ -59,7 +59,7 @@ jobs:
         - uses: actions/checkout@main
 
         - name: Copy repo to cloud
-          uses: applyboy/scp-action@main
+          uses: appleboy/scp-action@main
           env:
             HOST: ${{ secrets.HOST }}
             USERNAME: ${{ secrets.USERNAME }}

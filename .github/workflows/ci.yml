@@ -66,5 +66,6 @@ jobs:
             PORT: ${{ secrets.PORT }}
             KEY: ${{ secrets.KEY }}
           with:
-            source: "${PWD}"
+            source: "./"
+            target: "~/prod"
 
